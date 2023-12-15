@@ -1,0 +1,78 @@
+
+.book-card{
+    width:23rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding:1rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    height: auto;
+    position: relative;
+    background:white;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+.book-img img{
+   width: 23rem;
+   height:17rem;
+   border-radius: 3px;
+}
+.book-info h3{
+    color: rgb(85, 74, 247);
+    font-size: 1.6rem;
+    margin: .8rem;
+    font-size: 1.1rem;
+    text-decoration: none!important;
+}
+a:-webkit-any-link{
+    text-decoration: none;
+}
+a:-webkit-any-link:hover{
+    text-decoration: underline;
+    color: rgb(250, 50, 50);
+}
+.book-info h3:hover{
+    color: rgb(250, 50, 50);
+}
+.book_price {
+    color: rgb(226, 36, 36);
+    padding: 0.7rem 1rem ;
+    font-size: 1.5rem;
+    margin: 0;
+}
+h4{
+    color: rgb(49, 49, 49);
+    word-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 1rem;
+}
+.btn{
+    background-color: transparent;
+    color: red;
+    padding: .8rem 1.2rem;
+    border-radius: 8px;
+    border: 1px solid red;
+    outline: none;
+    text-transform: uppercase;
+    display: block;
+    margin:5px  auto;
+    cursor: pointer;
+}
+
+
+@media (max-width:668px){
+    .book-card{
+        width: 20rem;
+    }
+    .book-card img {
+        width: 20rem;
+    }
+    .book-price{
+        font-size: .2rem;
+    }
+}
